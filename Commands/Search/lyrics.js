@@ -20,7 +20,7 @@ module.exports = {
     const lyrics = result.data.lyrics
     const thumbnail = result.data.thumbnail
 
-    let resText = `  *『  ⚡️ Lyrics Search Engine ⚡️  』*\n\n\n_Search Term:_ *${searchQuery}*\n\n\n*📍 Lyrics:* \n\n${lyrics}\n\n\n_*Powered by:*_ *Scrappy API - by Sohan*\n\n_*Url:*_ https://github.com/FantoX001/Scrappy-API \n`;
+    let resText = `  *『  ⚡️ Lyrics Search Engine ⚡️  』*\n\n\n_Search Term:_ *${searchQuery}*\n\n\n*📍 Lyrics:* \n\n${lyrics}\n\n\n_*Powered by:*_ *Scrappy API - by Sohan*\n\n_*Url:*_ https://github.com/Mathiya578/Scrappy-API \n`;
 
     await Miku.sendMessage(
       m.from,
